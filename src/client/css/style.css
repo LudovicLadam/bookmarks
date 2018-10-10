@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+.container {
+  background-color: white;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.title {
+  padding-left: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.grid {
+  background-color: transparent;
+}
+
+.add-button-view {
+  padding-right: 10px;
+  text-align: right;
+}
+
+.form-group-btn-url {
+  margin-top: 10px;
+}
+
+.btn-submit-url {
+  margin-left: 13px;
+}
+
+.btn-cancel-url {
+  margin-left: 10px;
+}
+
+.a-return-link {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.spinner {
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+
+.cell-bookmark {
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row-icon {
+  width: 24px;
+  float: left;
+  margin-top: -3px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.row-created-at {
+  float: right;
+  margin-top: -30px;
+  margin-right: 5px;
+}
+
+.row-author-url {
+  margin-left: 40px;
+}
+
+.row-buttons {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.row-btn-edit {
+  margin-right: 10px;
+}
+
+.error-message {
+  color: darkred;
+  margin-left: 20px;
+}
+
+.btn-url-spinner {
+  margin-top: 5px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
